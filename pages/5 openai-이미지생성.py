@@ -14,7 +14,7 @@ if api_key:
     st.title("DALL-E 3 이미지 생성기")
 
     # 사용자 입력 받기
-    prompt = st.text_input("이미지 생성 프롬프트를 입력하세요", "a white siamese cat")
+    prompt = st.text_input("아무거나 이미지 생성 프롬프트를 입력하세요", "a white siamese cat")
 
     # 버튼을 클릭했을 때 이미지 생성
     if st.button("이미지 생성"):
